@@ -1,0 +1,12 @@
+﻿@model MyProfile.Models.User
+
+
+
+
+
+    <form class="form-check" method="post" action="Create" >
+        <input asp-for="Name"  />
+        <input asp-for="Age" />
+        <button class="btn btn-primary" type="submit">Save</button>
+    </form>
+<a asp-action="Index" class="btn btn-link">Back</a>

@@ -1,0 +1,13 @@
+﻿@model MyProfile.Models.User
+
+
+
+
+<h1>Edit</h1>
+    <form class="form-check" method="post" action="Edit" >
+        <input asp-for="Id" hidden />
+        <input asp-for="Name"  />
+        <input asp-for="Age" />
+        <button class="btn btn-primary" type="submit">Edit</button>
+    </form>
+<a asp-action="Index" class="btn btn-link">Back</a>
